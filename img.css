@@ -1,0 +1,110 @@
+body {
+    margin:0;
+}
+.page-header a {
+    text-decoration: none;
+    color:white;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between; 
+    /* 사이에 스페이스 넣기 */
+    align-items: center;
+    background-color: #221815;
+    padding : 3px 12px;
+}
+.main-menu {
+    display: flex;
+    list-style: none;
+    padding-left:0;
+}
+.main-menu li{
+    padding:3px 12px;
+}
+.side li{
+    align-items:left;
+    list-style:none;
+}
+.side a{
+    text-decoration: none;
+    color: #221815;
+}
+.side ul{
+    padding-left:5px;
+    margin-top:0;
+}
+
+.side{
+    border-right:30px;
+    width:150px;
+    margin: 0;
+    padding:20px;
+    background-color: whitesmoke;
+}
+.side p{
+    padding-left :0;
+    padding-right:0;
+}
+.center{
+    display : flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.center article{
+    width: 270px;
+    height:auto;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.center img{
+    width : 220px;
+    height : 300px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dt,dl {
+    text-align: center;
+    font-size: .9rem;
+}
+
+dd {
+    margin-bottom: 0;
+    margin-left: 0;
+}
+dl {
+    margin-bottom:0;
+}
+.middle{
+    display : flex;
+}
+.foot a{
+    text-decoration: none;
+    color:white;
+}
+.foot {
+    display: block;
+    align-items: center;
+    background-color: #221815;
+    padding : 3px 12px;
+}
+.foot ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0 ;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*이게 자꾸 align-content: center;을 쓰는데 정가운데로 오지 않아서 애먹었는데, 높이상으로 만 가운데 오게 하는거라 안됐던 거임*/  
+}
+.foot li{
+    padding:3px 12px;
+}
